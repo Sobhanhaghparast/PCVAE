@@ -1,0 +1,26 @@
+# Configuration parameters for the project
+
+# Dataset parameters
+num_files: 218  # Integer: Number of files
+max_points: 1024  # Integer: Maximum number of points per file
+input_dim: 3  # Integer: Input dimension of the data
+output_dim: 3  # Integer: Output dimension of the data
+# Training parameters
+batch_size: 4  # Integer: Batch size for training
+latent_dim: 8  # Integer: Latent dimension for the model
+
+# KL divergence term weights
+kl_weight_begin: 0.0  # Float: Initial weight for KL divergence
+kl_weight_end: 0.01    # Float: Final weight for KL divergence
+
+# Data augmentation settings
+augment: false  # Boolean: Enable data augmentation
+
+# T-Net usage settings
+use_tnet: false  # Boolean: Enable or disable T-Net usage
+
+# Dataset modality settings
+modality: Exp_registered_3D_tetra  # String: Modality type
+
+# Directory path settings
+csv_dir: "data/Exp_registered_3D_tetra/Localizations/"  # String: Path to the CSV files directory
