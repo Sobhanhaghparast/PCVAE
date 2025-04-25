@@ -23,13 +23,13 @@ Single-molecule localization microscopy (SMLM) provides super-resolution imaging
    git clone https://github.com/Sobhanhaghparast/PCVAE.git
    cd PCVAE
    
-Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment (recommended):
 
 ```bash
 python -m venv venv
 source venv/bin/activate
 
-Install dependencies:
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 🚀 Usage
 You can modify the configuration file and run the training script:
 
-   bash
+```bash
 python main.py
 
 
