@@ -11,7 +11,6 @@ Single-molecule localization microscopy (SMLM) provides super-resolution imaging
 
 ## ✨ Features
 
-- **Probabilistic Modeling**: Captures uncertainty in data using a variational framework.
 - **Disentanglement**: Encourages interpretable latent dimensions.
 - **Modular Codebase**: Easy to extend and integrate with your own data and models.
 - **Visualization Tools**: Includes projections and binning for downstream biological analysis.
@@ -44,20 +43,6 @@ Edit
 python main.py
 The input data is expected to be in CSV format with the first two columns representing x and y coordinates. Reconstructed outputs, latent spaces, and labels should be structured accordingly (see /data folder for examples).
 
-Example Project Structure:
-css
-Copy
-Edit
-PCVAE/
-├── data/
-│   ├── inputs/
-│   ├── outputs/
-│   ├── latent_spaces/
-│   └── labels.csv
-├── models/
-├── utils/
-├── main.py
-└── requirements.txt
 🧠 Applications
 Analyzing continuous structural heterogeneity in SMLM data
 
