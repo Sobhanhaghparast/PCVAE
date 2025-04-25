@@ -38,9 +38,8 @@ Single-molecule localization microscopy (SMLM) provides super-resolution imaging
 🚀 Usage
 You can modify the configuration file and run the training script:
 
-   ```bash
-   python main.py
-
+      ```bash
+      python main.py
 
 The input data is expected to be in CSV format with the first two columns representing x and y coordinates. Reconstructed outputs, latent spaces, and labels should be structured accordingly (see /data folder for examples).
 
