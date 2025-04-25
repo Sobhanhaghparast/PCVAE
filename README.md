@@ -37,15 +37,21 @@ Single-molecule localization microscopy (SMLM) provides super-resolution imaging
 
 ## 🚀 Usage
 You can modify the configuration file and run the training script:
-The input data is expected to be in CSV format with the first two columns representing x and y coordinates. Reconstructed outputs, latent spaces, and labels should be structured accordingly (see /data folder for examples).
 
-   ```bash
-   python main.py
+The input data is expected to be in CSV format with the first two columns representing x and y coordinates. Reconstructed outputs, latent spaces, and labels should be structured accordingly (see the /data folder for examples).
 
+bash
 
-## 🧠 Applications
-Analyzing continuous structural heterogeneity in SMLM data Dimensionality reduction for microscopy data Interpretable representations in biomedical imaging
+python main.py
+🧠 Applications
+Analyzing continuous structural heterogeneity in SMLM data
 
+Dimensionality reduction for microscopy data
 
-## 🔬 Developed by Yi zhang and Sobhan Haghparast
-## 🧪 If you use this work in your research, please cite the repository and the associated publication when available.
+Interpretable representations in biomedical imaging
+
+🔬 Developed by
+Yi Zhang and Sobhan Haghparast
+
+🧪 Citation
+If you use this work in your research, please cite the repository and the associated publication when available.
