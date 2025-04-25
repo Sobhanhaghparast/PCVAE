@@ -23,24 +23,24 @@ Single-molecule localization microscopy (SMLM) provides super-resolution imaging
    cd PCVAE
 Create and activate a virtual environment (recommended):
 
-bash
-Copy
-Edit
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+
+
 Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+
+
 🚀 Usage
 You can modify the configuration file and run the training script:
 
-bash
-Copy
-Edit
+```bash
 python main.py
+
+
 The input data is expected to be in CSV format with the first two columns representing x and y coordinates. Reconstructed outputs, latent spaces, and labels should be structured accordingly (see /data folder for examples).
 
 🧠 Applications
@@ -53,7 +53,3 @@ Interpretable representations in biomedical imaging
 
 🔬 Developed by Yi zhang and Sobhan Haghparast
 🧪 If you use this work in your research, please cite the repository and the associated publication when available.
-
-vbnet
-Copy
-Edit
