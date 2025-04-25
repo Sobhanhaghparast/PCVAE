@@ -40,17 +40,13 @@ You can modify the configuration file and run the training script:
 
 The input data is expected to be in CSV format with the first two columns representing x and y coordinates. Reconstructed outputs, latent spaces, and labels should be structured accordingly (see the /data folder for examples).
 
-                  ```bash
-                  python main.py
+      ```bash
+      python main.py
 
 
 
 🧠 Applications
-Analyzing continuous structural heterogeneity in SMLM data
-
-Dimensionality reduction for microscopy data
-
-Interpretable representations in biomedical imaging
+Analyzing continuous structural heterogeneity in SMLM data Dimensionality reduction for microscopy data Interpretable representations in biomedical imaging
 
 🔬 Developed by
 Yi Zhang and Sobhan Haghparast
