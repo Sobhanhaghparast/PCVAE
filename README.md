@@ -46,10 +46,10 @@ The input data is expected to be in CSV format with the first two columns repres
 
 
 🧠 Applications
-Analyzing continuous structural heterogeneity in SMLM data Dimensionality reduction for microscopy data Interpretable representations in biomedical imaging
+Analyzing continuous structural heterogeneity in SMLM data Dimensionality reduction for microscopy data Interpretable representations in biomedical imaging.
 
 🔬 Developed by
-Yi Zhang and Sobhan Haghparast
+Sobhan Haghparast
 
 🧪 Citation
 If you use this work in your research, please cite the repository and the associated publication when available.
