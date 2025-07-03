@@ -1,4 +1,4 @@
-# PCVAE: Point cloud Variational Autoencoder
+# PCVAE: Point cloud Variational Autoencoder 
 
 PCVAE is a Point cloud variational autoencoder designed for analyzing single-molecule localization microscopy (SMLM) data. This model helps to detect continous structural heterogenity in SMLM datasets.
 
